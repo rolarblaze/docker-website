@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Hello static
-        run: echo welcome to a new world!
+        run: echo "welcome to a new world!"
         shell: bash 
   goodbye:
     runs-on: ubuntu-latest
